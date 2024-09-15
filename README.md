@@ -10,7 +10,7 @@ I was tired of repeating the same steps every time I started a new project. This
 - 🎨 Supports multiple project types:
   - SvelteKit 🧡
   - Laravel 🐘
-  - Avalonia 🖥️
+  - Avalonia MVVM 🖥️
 - 🐙 Automatically creates a GitHub repository
 - 🔗 Connects your local project to the GitHub repo
 - 🚀 Initializes the project with the chosen framework

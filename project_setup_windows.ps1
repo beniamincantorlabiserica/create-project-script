@@ -85,9 +85,9 @@ switch ($project_type) {
 }
 
 # Add all files, commit, and push to GitHub
-git add .
-git status  # Debug: Check what's being staged
-git commit -m "Initial commit: Add $project_type project files"
+# git add .
+# git status  # Debug: Check what's being staged
+# git commit -m "Initial commit: Add $project_type project files"
 
 # Determine the default branch name
 $default_branch = git rev-parse --abbrev-ref HEAD
@@ -109,5 +109,7 @@ else {
         exit 1
     }
 }
+/
+# revised on windows - missing a lot of packages and dependencies
 
 Write-Host "Project setup complete. Your $project_type project '$project_name' is now connected to GitHub."
